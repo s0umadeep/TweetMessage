@@ -1,0 +1,23 @@
+.Appx {
+  color: antiquewhite;
+  text-align: center;
+  min-height: 100vh;
+  background-image: url("../src/tGxP1p.jpg");
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Tweet {
+  font-family: sans-serif;
+  color: black;
+  background-color: black;
+  text-align: center;
+  text-decoration: rgb(200, 205, 211);
+  height: 100px;
+  width: 200px;
+  background-color: rgba(214, 171, 171, 0.685);
+  border-radius: 10px;
+  justify-content: space-around;
+  align-items: center;
+}
