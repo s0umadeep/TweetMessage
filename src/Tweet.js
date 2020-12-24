@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css"
 
-function  Tweet() {
+function  Tweet(props) {
 
     
     console.log("Tweet component has been hit ...")
@@ -9,8 +9,8 @@ function  Tweet() {
     return(
 
         <div className = "Tweet">
-            <h3> Name</h3>
-            <h3> Number of Tweets</h3>
+            <h3> {props.name}</h3>
+            <p>  {props.message }</p>
             <button onClick={counter}> Likes </button>
             
         </div>
@@ -18,9 +18,9 @@ function  Tweet() {
     );
 }
 
-function counter(){
+function counter(props){
     return(
-        console.log("Logged...")
+        console.log(" Logged...")
     );
 }
 
