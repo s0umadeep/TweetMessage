@@ -45,9 +45,7 @@ const increment =()=>{
     console.log("Tweet component has been hit ...")
     return(
         <body>
-        <div className= "Profile-image">
-        <img src={imageDetail} alt=""></img>
-        </div>
+        <img className= "Profile-image" src={imageDetail} alt="" ></img>
         <div className = "Tweet">
             <h3> @{nameDetail}</h3>
             <p> {message} </p>
