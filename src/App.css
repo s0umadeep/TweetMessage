@@ -1,5 +1,6 @@
 .Appx {
   color: antiquewhite;
+  font-family: "Courier New", Courier, monospace;
   text-align: center;
   min-height: 100vh;
   background-image: url("../src/92-929912_twitter-wallpaper.jpg");
@@ -10,13 +11,12 @@
 }
 
 .Tweet {
-  font-family: sans-serif;
   color: black;
   background-color: black;
   text-align: center;
   line-height: 18px;
-  height: 120px;
-  width: 240px;
+  height: 130px;
+  width: 260px;
   background-color: rgba(214, 171, 171, 0.685);
   display: flex;
   flex-direction: column;
@@ -24,4 +24,11 @@
   border-radius: 10px;
   justify-content: space-around;
   align-items: center;
+}
+.Title {
+  text-size-adjust: initial;
+  text-align: center;
+  font-family: monospace;
+  text-decoration-style: dotted;
+  text-justify: inter-word;
 }
