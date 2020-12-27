@@ -2,7 +2,7 @@
   color: antiquewhite;
   font-family: "Courier New", Courier, monospace;
   text-align: center;
-  min-height: 95vh;
+  min-height: 94vh;
   background-image: url("../src/92-929912_twitter-wallpaper.jpg");
   background-position: 10%;
   display: flex;
@@ -42,6 +42,7 @@
 }
 
 .Profile-image {
-  border-radius: 80%;
+  border-radius: 100%;
+  vertical-align: 15px;
   padding: None;
 }

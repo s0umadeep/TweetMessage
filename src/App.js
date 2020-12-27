@@ -7,7 +7,7 @@ function App(){
 
   return(
     <body>
-    
+
       <h1 className="Title">Twitter Message Listener Analysis </h1>
 
       <div className = "Appx"> 
@@ -17,8 +17,9 @@ function App(){
       <Tweet name = "@Papiya" message = "Politics is everywhere." mid ="4"/>
       <Tweet name = "@Lalu" message = "Dogs is everywhere." mid ="5"/>
     </div>
-    <footer> Developed by Soumadeep ❤ </footer>
+    <footer> Developed  by  Soumadeep ❤ </footer>
     </body>
+    
   );
 }
 
