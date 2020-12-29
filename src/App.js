@@ -8,9 +8,9 @@ function App(){
   return(
     <body>
 
-      <h1 className="Title">Twitter Message Listener Analysis </h1>
+      <h1 className="Title">Message Listener Analysis </h1>
 
-      <div className = "Appx"> 
+      <div className = "Appx BackgroundLayout"> 
       <Tweet name = "@Soumadeep" message = "We shall only go for good programming" mid ='1'/>
       <Tweet name = "@Akashdeep" message = "Don't commit  into Master" mid ="2"/>
       <Tweet name = "@Alok" message = "What's up fellas !!" mid ="3"/>
