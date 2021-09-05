@@ -17,7 +17,7 @@ function App(){
       <Tweet name = "@Papiya" message = "Politics is everywhere." mid ="4"/>
       <Tweet name = "@Lalu" message = "Dogs is everywhere." mid ="5"/>
     </div>
-    <footer> Developed  by  Soumadeep ❤ </footer>
+    <footer className="Footer"> Developed  by  Soumadeep ❤ </footer>
     </body>
     
   );
